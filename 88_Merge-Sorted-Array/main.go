@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 // leetcode 88
-// не учитывается случай когда n<m, а также когда m = 0
+// не учитывается случай когда n<m, а также когда m = 0 (можно решить не рассматривая пограничные случаи?)
+
+
 func main() {
 	nums1 := []int{1, 2, 3, 0, 0, 0}
 	nums2 := []int{4, 5}
@@ -12,6 +14,7 @@ func main() {
 	merge(nums1, m, nums2, n)
 	fmt.Println(nums1)
 }
+
 
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	if m == 0 {
