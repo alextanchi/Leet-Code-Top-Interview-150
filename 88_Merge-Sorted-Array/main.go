@@ -31,3 +31,5 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 	}
 	fmt.Println(nums1)
 }
+
+//ком
