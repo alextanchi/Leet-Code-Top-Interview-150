@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 )
-//учебное задание
+//литкод
 func main() {
 
 	arr := []int{28, 2, 20, 19, 18, 12, 14}
