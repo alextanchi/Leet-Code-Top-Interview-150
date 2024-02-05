@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // MajorityElement
-// решение с помощью map оптимально, когда задача связана с уникальными элементами
+// решени с помощью map оптимально, когда задача связана с уникальными элементами
 func main() {
 	var arr = []int{6, 7, 6, 7, 7}
 	fmt.Println(Majority(arr))
